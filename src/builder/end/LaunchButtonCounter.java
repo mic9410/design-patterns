@@ -13,7 +13,9 @@ public class LaunchButtonCounter {
         ui.click();
         ui.click();
         ui.getCounterInfo();
+
         ui = counterDirector.setUI(horizontal);
+
         ui.click();
         ui.click();
         ui.click();
