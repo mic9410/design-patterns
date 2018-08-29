@@ -1,4 +1,4 @@
-package adapter.plain.text;
+package adapter.start.plain.text;
 
 import java.io.*;
 
