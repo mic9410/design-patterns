@@ -16,7 +16,7 @@ public class PlainText {
         this.openedText = br.readLine();
     }
 
-    public String getText() {
+    public String readFile() {
         return this.openedText;
     }
 }
