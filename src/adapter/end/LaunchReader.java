@@ -10,9 +10,9 @@ public class LaunchReader {
         String path = "C:\\Repos\\design-patterns\\src\\adapter\\end\\plain\\text\\text.txt";
 
         PlainText rpt = new PlainText(path);
-        System.out.println(rpt.getText());
+        System.out.println(rpt.readFile());
 
-        EncryptedText enc = new EncryptedText();
-        System.out.println(enc.readFile(path));
+        EncryptedText enc = new EncryptedText(path);
+        System.out.println(enc.readFile());
     }
 }
