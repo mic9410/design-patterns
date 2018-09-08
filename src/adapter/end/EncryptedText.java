@@ -14,7 +14,7 @@ public class EncryptedText implements PlainToEncryptedAdapter {
     @Override
     public String readFile() throws IOException {
         PlainText pt = new PlainText(this.path);
-       return ("This is encryped version of the text: " + pt.readFile());
+       return ("This is encryped version of the text: " + pt.readPlainText());
     }
 
 }
