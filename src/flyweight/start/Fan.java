@@ -1,11 +1,10 @@
 package flyweight.start;
 
-public class Fan {
-    private FanKit fanKit;
+public interface Fan {
+    void getShirt();
 
-    private String supportedClub;
+    void screamShout();
 
-    public Fan(String club) {
-        this.supportedClub = club;
-    }
+    void showBanner();
+
 }

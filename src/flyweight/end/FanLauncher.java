@@ -1,7 +1,5 @@
 package flyweight.end;
 
-import flyweight.start.FanKit;
-
 import java.util.ArrayList;
 import java.util.List;
 

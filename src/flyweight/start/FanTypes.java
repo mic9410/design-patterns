@@ -1,7 +1,7 @@
 package flyweight.start;
 
-public enum Club {
+public enum FanTypes {
     WISLA,
     REAL,
-    BARCA,
+    BARCA;
 }
