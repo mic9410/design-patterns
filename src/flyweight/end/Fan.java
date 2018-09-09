@@ -2,8 +2,8 @@ package flyweight.end;
 
 public class Fan {
 
-    public Fan(String club) {
-        String supportedClub = club;
+    public Fan(Club club) {
+        Club supportedClub = club;
         FanKit fanKit = new FanKit(supportedClub);
     }
 }

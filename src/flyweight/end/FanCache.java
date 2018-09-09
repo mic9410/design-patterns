@@ -5,9 +5,9 @@ import java.util.Map;
 
 public class FanCache {
 
-    private static Map<String, Fan> cache = new HashMap<>();
+    private static Map<Club, Fan> cache = new HashMap<>();
 
-    public static Fan getFan(String supportedTeam){
+    public static Fan getFan(Club supportedTeam){
         Fan fan = cache.get(supportedTeam);
 
         if(fan == null){

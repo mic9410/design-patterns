@@ -1,31 +1,18 @@
 package flyweight.end;
 
 public class FanKit {
-    public String getShirt() {
-        return shirt;
-    }
-
     private String shirt;
     private String banner;
-
-    public String getBanner() {
-        return banner;
-    }
-
-    public String getScarf() {
-        return scarf;
-    }
-
     private String scarf;
 
 
-    public FanKit(String supportedClub) {
+    public FanKit(Club supportedClub) {
         switch (supportedClub) {
-            case "WISLA":
+            case WISLA:
                 getWislaKit();
-            case "REAL":
+            case REAL:
                 getRealKit();
-            case "BARCA":
+            case BARCA:
                 getBarcaKit();
         }
     }
